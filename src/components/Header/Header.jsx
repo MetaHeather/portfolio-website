@@ -1,4 +1,6 @@
-var NewComponent = React.createClass({
+import React from 'react';
+
+let Header = React.createClass({
     render: function() {
       return (
         <div>
@@ -78,3 +80,5 @@ var NewComponent = React.createClass({
       );
     }
   });
+
+  export default Header;

@@ -1,4 +1,6 @@
-var NewComponent = React.createClass({
+import React from 'react';
+
+let Resume = React.createClass({
   render: function() {
     return (
       <section id="resume">
@@ -92,3 +94,5 @@ var NewComponent = React.createClass({
     );
   }
 });
+
+export default Resume;
