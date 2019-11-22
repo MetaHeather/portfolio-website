@@ -4,7 +4,7 @@ import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Portfolio from './components/Portfolio/Portfolio';
 import Testimonials from  './components/Testimonials/Testimonials';
-import ContactUs from './components/contactus/contactus';
+import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/footer/footer';
 
 
