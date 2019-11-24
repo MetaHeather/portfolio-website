@@ -1,9 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-let Testimonials = React.createClass({
-    render: function() {
+class Testimonials extends Component{
+    render() {
       return (
-  
         <section id="testimonials">
           <div className="text-container">
             <div className="row">
@@ -37,8 +36,7 @@ let Testimonials = React.createClass({
             </div> 
           </div> 
         </section>
-      );
-    }
-  });
+      )}
+  }
 
   export default Testimonials;

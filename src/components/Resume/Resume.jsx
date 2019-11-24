@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-let Resume = React.createClass({
-  render: function() {
+class Resume extends Component {
+  render() {
     return (
       <section id="resume">
         <div className="row education">
@@ -11,8 +11,8 @@ let Resume = React.createClass({
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
-                <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+                <h3>General Assembly</h3>
+                <p className="info">Software Engineering Immersive<span>•</span> <em className="date">October 2019</em></p>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -91,8 +91,7 @@ let Resume = React.createClass({
           </div> 
         </div> 
       </section>
-    );
-  }
-});
+    )}
+}
 
 export default Resume;

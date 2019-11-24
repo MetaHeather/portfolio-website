@@ -1,24 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-let ContactUs = React.createClass({
-    render: function() {
+class ContactUs extends Component{
+    render() {
       return (
-  
         <section id="contact">
           <div className="row section-head">
             <div className="two columns header-col">
               <h1><span>Get In Touch.</span></h1>
             </div>
             <div className="ten columns">
-              <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+              <p className="lead">I can be contacted by Email at any time &#9786;
               </p>
             </div>
           </div>
           <div className="row">
             <div className="eight columns">
-              {/* form */}
               <form action method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
@@ -44,24 +40,13 @@ let ContactUs = React.createClass({
                     </span>
                   </div>
                 </fieldset>
-              </form> {/* Form End */}
-              {/* contact-warning */}
-              <div id="message-warning"> Error boy</div>
-              {/* contact-success */}
+              </form> 
+              <div id="message-warning"> Error.</div>
               <div id="message-success">
                 <i className="fa fa-check" />Your message was sent, thank you!<br />
               </div>
             </div>
             <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
-                <p className="address">
-                  Jonathan Doe<br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US<br />
-                  <span>(123) 456-7890</span>
-                </p>
-              </div>
               <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
@@ -86,8 +71,7 @@ let ContactUs = React.createClass({
             </aside>
           </div>
         </section>
-      );
-    }
-  });
+      )}
+  }
 
   export default ContactUs;

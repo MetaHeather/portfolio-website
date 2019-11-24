@@ -1,14 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-let Portfolio = React.createClass({
-    render: function() {
+class Portfolio extends Component {
+    render() {
       return (
-  
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Works.</h1>
-              {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
@@ -224,8 +222,7 @@ let Portfolio = React.createClass({
             </div>{/* modal-01 End */}
           </div> {/* row End */}
         </section>
-      );
-    }
-  });
+      )}
+  }
 
   export default Portfolio;
