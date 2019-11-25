@@ -19,15 +19,15 @@ class ContactUs extends Component{
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">Name <span className="required">*</span></label>
-                    <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                    <input type="text" defaultValue={""} size={35} id="contactName" name="contactName" />
                   </div>
                   <div>
                     <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                    <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                    <input type="text" defaultValue={""} size={35} id="contactEmail" name="contactEmail" />
                   </div>
                   <div>
                     <label htmlFor="contactSubject">Subject</label>
-                    <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                    <input type="text" defaultValue={""} size={35} id="contactSubject" name="contactSubject" />
                   </div>
                   <div>
                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
@@ -48,23 +48,14 @@ class ContactUs extends Component{
             </div>
             <aside className="four columns footer-widgets">
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">Send me an email</h4>
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                      Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                      I'll get back to you as soon as possible.
+                      In the mean time, be sure to check out some of my 
+                      projects up above!
                     </span>
-                    <b><a href="#">2 Days Ago</a></b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
-                      <a href="#">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b><a href="#">3 Days Ago</a></b>
                   </li>
                 </ul>
               </div>

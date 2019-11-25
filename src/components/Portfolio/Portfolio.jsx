@@ -6,7 +6,7 @@ class Portfolio extends Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Check Out Some of My Work.</h1>
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
@@ -122,6 +122,7 @@ class Portfolio extends Component {
                 </div>  {/* item end */}
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
+
             {/* Modal Popup
             --------------------------------------------------------------- */}
             <div id="modal-01" className="popup-modal mfp-hide">
@@ -132,7 +133,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}
@@ -144,7 +146,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-02 End */}
@@ -156,7 +159,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-03 End */}
@@ -168,7 +172,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Photography</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-04 End */}
@@ -180,7 +185,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-05 End */}
@@ -192,7 +198,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Photography</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-06 End */}
@@ -204,7 +211,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-07 End */}
@@ -216,7 +224,8 @@ class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="http://www.behance.net">Code</a>
+                <a href="http://www.behance.net">Website</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}

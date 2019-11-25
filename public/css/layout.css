@@ -1,31 +1,14 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
+ 
 
 /* ------------------------------------------------------------------ */
-/* a. General Styles
+/*  General Styles
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
-/* b. Header Styles
+/*  Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
@@ -33,8 +16,11 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80") no-repeat top center;
    background-size: cover !important;
+
+
+   
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
@@ -52,7 +38,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -179,7 +165,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -207,8 +193,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -325,83 +311,83 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.javascript {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: javascript 3s ease;
+  	-webkit-animation: javascript 3s ease;
 }
-.html5 {
+.react {
+  	width: 85%;
+  	-moz-animation: react 3s ease;
+  	-webkit-animation: react 3s ease;
+}
+.nodejs {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: nodejs 3s ease;
+  	-webkit-animation: nodejs 3s ease;
 }
-.jquery {
+.git {
+  	width: 95%;
+  	-moz-animation: git 3s ease;
+  	-webkit-animation: git 3s ease;
+}
+.mongodb {
+  	width: 80%;
+  	-moz-animation: mongodb 3s ease;
+  	-webkit-animation: mongodb 3s ease;
+}
+.pythondjango {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: pythondjango 3s ease;
+  	-webkit-animation: pythondjango 3s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes nodejs {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes git {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 95%;  }
+}
+@-moz-keyframes mongodb {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes pythondjango {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes nodejs {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes git {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+@-webkit-keyframes mongodb {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes pythondjango {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -430,6 +416,10 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    overflow: hidden;
    position: relative;
+
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -477,7 +467,7 @@ ul#nav li.current a { color: #F06000; }
    -webkit-transition: opacity 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
+   transition: opacity 0.3s ease-in-out;
 
    position: absolute;
    top: 50%;
@@ -520,17 +510,17 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 20px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
 .popup-modal .description-box p {
-	font: 14px/24px 'opensans-regular', sans-serif;
+	font: 18px/24px 'opensans-regular', sans-serif;
    color: #A1A1A1;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
+   font: 14px/21px 'opensans-light', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -541,13 +531,15 @@ ul#nav li.current a { color: #F06000; }
    margin-right: 8px;
 }
 .popup-modal .link-box {
+   display: flex;
+   justify-content: space-between;
    padding: 18px 36px;
    background: #111;
    text-align: left;
 }
 .popup-modal .link-box a {
    color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
+	font: 18px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
