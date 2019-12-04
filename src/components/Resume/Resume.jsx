@@ -67,8 +67,10 @@ class Resume extends Component {
               <h3>I'm currently available for hire!</h3>
                 <p className="info">Junior Software Engineer <span>•</span> <em className="date">Present</em></p>
                 <p>
-                  
-                  You can use the contact form below, or send your inquiry to heathernetheridge@gmail.com
+                  Send your inquiry to:<br/> 
+                  <a href="mailto:heathernetheridge@gmail.com" id="contactpoint">
+                     heathernetheridge@gmail.com
+                  </a>
                 </p>
               </div>
             </div> 

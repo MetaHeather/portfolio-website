@@ -13,8 +13,7 @@ class Header extends Component {
                 <li><a className="smoothscroll" href="#about">About</a></li>
                 <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                 <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                <li><a className="smoothscroll" href="#contactpoint">Contact</a></li>
               </ul> 
             </nav> 
             <div className="row banner">
@@ -52,7 +51,7 @@ class Header extends Component {
                     <p className="address">
                       <span>Heather Etheridge</span><br />
                       <span>Austin Texas</span><br />
-                      <span>heathernetheridge@gmail.com</span>
+                      <span><a href="mailto:heathernetheridge@gmail.com">heathernetheridge@gmail.com</a></span>
                     </p>
                   </div>
                   <div className="columns download">
