@@ -15,8 +15,8 @@ class ContactMe extends Component{
           </div>
           <div className="row">
             <div className="eight columns">
-              <form action method="post" id="contactForm" name="contactForm">
-              <input type="hidden" name="form-name" value="contact" />
+              <form action method="post" id="contactForm" name="contactForm" >
+              <input type="hidden" name="form-name" value="contactForm" />
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">Name <span className="required">*</span></label>
