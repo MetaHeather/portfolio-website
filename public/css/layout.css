@@ -868,27 +868,7 @@ call-to-action .button {
 	color: #11ABB0;
 	font-size: 13px;
 }
-#message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
-	padding: 24px 24px;
-	margin-bottom: 36px;
-   width: 65%;
-   margin-left: 26%;
-}
-#message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
 
-#message-warning i,
-#message-success i {
-   margin-right: 10px;
-}
-#image-loader {
-   display: none;
-   position: relative;
-   left: 18px;
-   top: 17px;
-}
 
 
 /* Twitter Feed */

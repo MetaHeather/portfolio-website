@@ -18,8 +18,7 @@ class App extends Component {
         <About />
         <Resume /> 
         <CurrentWork />
-        {/* Needs Backend before messaging enabled
-        <ContactUs /> */}
+        <ContactUs />
         <Footer />
       </div>
     );

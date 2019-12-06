@@ -9,13 +9,14 @@ class ContactUs extends Component{
               <h1><span>Get In Touch.</span></h1>
             </div>
             <div className="ten columns">
-              <p className="lead">I can be contacted by Email at any time &#9786;
+              <p className="lead">You can use the form below to send me a brief message &#9786;
               </p>
             </div>
           </div>
           <div className="row">
             <div className="eight columns">
               <form action method="post" id="contactForm" name="contactForm">
+              <input type="hidden" name="form-name" value="contact" />
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -35,26 +36,19 @@ class ContactUs extends Component{
                   </div>
                   <div>
                     <button className="submit">Submit</button>
-                    <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
                   </div>
                 </fieldset>
               </form> 
-              <div id="message-warning"> Error.</div>
-              <div id="message-success">
-                <i className="fa fa-check" />Your message was sent, thank you!<br />
-              </div>
             </div>
             <aside className="four columns footer-widgets">
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Send me an email</h4>
+                <h4 className="widget-title">Send me a message!</h4>
                 <ul id="twitter">
                   <li>
                     <span>
                       I'll get back to you as soon as possible.
                       In the mean time, be sure to check out some of my 
-                      projects up above!
+                      projects up above.
                     </span>
                   </li>
                 </ul>
