@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class ContactUs extends Component{
+class ContactMe extends Component{
     render() {
       return (
         <section id="contact">
@@ -59,4 +59,4 @@ class ContactUs extends Component{
       )}
   }
 
-  export default ContactUs;
+  export default ContactMe;
